@@ -1,4 +1,5 @@
 PImage pandita;
+//nombre y apellido joaquin martinez
 
 void setup() {
   size( 800, 400 );
