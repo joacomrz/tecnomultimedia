@@ -22,7 +22,7 @@ PImage bg3;
 PImage bg4;
 PImage bgnoche;
 float x = -50;
-float y = height/2;
+float y = 40;
 float tamaño = 50;
 float x2 = -400;
 
@@ -236,7 +236,10 @@ void draw() {
     fill(255, 255, 255);
     textSize(20);
     text ("descansa guepardo...", 330, 450);
-    
+    x = -50;
+    y = 40;
+    tamaño = 50;
+    x2 = -400;
   } else {
     text( "no es ningun \n estado preseteado", width/2, height/2 );
   }
